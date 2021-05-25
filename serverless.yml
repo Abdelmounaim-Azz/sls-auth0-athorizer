@@ -8,6 +8,7 @@ provider:
   name: aws
   runtime: nodejs14.x
   memorySize: 128
+  region: eu-west-1
   environment:
     AUTH0_PUBLIC_KEY: ${file(secret.pem)}
 
